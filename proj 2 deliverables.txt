@@ -1,0 +1,5 @@
+Suggestion: Implement a classic LRU class and run experimentations based on real world like random data inputs.
+Using online decision-making based on randomly generated inputs, model an LRU cache for different sizes of k  and different “alphabets” of inputs and empirically evaluate average runtime, memory, and page fault rate. Compare against theoretical findings for validity (safeguard).
+Choose a given input randomization of random data: 
+Uniform Random Access Distribution: all members of the alphabet equally likely - Josh
+Using the same probability distribution from problem 1, use online decision-making based on randomly generated inputs model an LFU cache for different sizes of k  and different “alphabets” of inputs and empirically evaluate average runtime, memory, and page fault rate. Compare against theoretical findings for validity (safeguard).
