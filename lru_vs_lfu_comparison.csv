@@ -1,0 +1,6 @@
+Metric,LRU,LFU
+Average Hit Rate,0.3912,0.3911
+Maximum Hit Rate,0.9990,0.9990
+Average Runtime (s),0.0470,0.1508
+Average Memory Usage (KB),20.37,33.10
+Theoretical Model Correlation,0.9997,0.9997

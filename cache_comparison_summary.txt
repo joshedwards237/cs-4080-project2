@@ -1,0 +1,20 @@
+LRU VS LFU CACHE PERFORMANCE WITH UNIFORM RANDOM ACCESS
+=======================================================
+
+EXECUTIVE SUMMARY:
+- Tested 32 configurations for both LRU and LFU caches
+- LRU Average hit rate: 0.3912
+- LFU Average hit rate: 0.3911
+- LRU-Theoretical correlation: 0.9997
+- LFU-Theoretical correlation: 0.9997
+
+KEY FINDINGS:
+1. Both LRU and LFU hit rates closely match theoretical predictions for uniform distribution
+2. LFU runtime is 221.0% higher than LRU
+3. LFU memory usage is 62.5% higher than LRU
+4. For uniform random access, both algorithms have similar hit rates
+
+RECOMMENDATIONS:
+1. For uniform access distributions, LRU is generally preferable due to lower overhead
+2. Cache-to-alphabet ratio is the primary determinant of hit rate for both algorithms
+3. LFU may be more beneficial for non-uniform distributions with frequently recurring items
