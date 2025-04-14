@@ -3,7 +3,7 @@ Total Configurations Tested,24
 Average Hit Rate,0.2648
 Max Hit Rate,"0.9990 (Cache: 100, Alphabet: 100)"
 Min Hit Rate,"0.0021 (Cache: 10, Alphabet: 5000)"
-Average Runtime (s),0.0492
+Average Runtime (s),0.0503
 Theoretical Model Correlation,0.8108
 Avg Difference from Theory,0.1671
 Cache Size with Best Performance,100
