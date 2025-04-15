@@ -10,7 +10,7 @@ EXECUTIVE SUMMARY:
 
 KEY FINDINGS:
 1. Both LRU and LFU hit rates closely match theoretical predictions for uniform distribution
-2. LFU runtime is 221.0% higher than LRU
+2. LFU runtime is 233.1% higher than LRU
 3. LFU memory usage is 62.5% higher than LRU
 4. For uniform random access, both algorithms have similar hit rates
 

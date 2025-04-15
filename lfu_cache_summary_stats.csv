@@ -1,9 +1,0 @@
-Metric,Value
-Total Configurations Tested,24
-Average Hit Rate,0.2647
-Max Hit Rate,"0.9990 (Cache: 100, Alphabet: 100)"
-Min Hit Rate,"0.0020 (Cache: 10, Alphabet: 5000)"
-Average Runtime (s),0.1465
-Theoretical Model Correlation,1.0000
-Avg Difference from Theory,0.0005
-Cache Size with Best Performance,100
