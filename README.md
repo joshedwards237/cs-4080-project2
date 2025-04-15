@@ -1,4 +1,4 @@
-# Cache Performance Comparison: LRU vs LFU
+# Cache Performance Comparison: LRU vs LFU with Uniform Random Access Distrobution
 
 This project implements and compares the performance of two popular caching algorithms: Least Recently Used (LRU) and Least Frequently Used (LFU) caches. The comparison is done using uniform random access patterns to evaluate their performance characteristics.
 
@@ -58,12 +58,19 @@ The project implements both LRU and LFU cache algorithms and conducts extensive 
 
 ## Usage
 
-1. Run the main experiment:
-```bash
-python josh_proj2.py
-```
+1. **Primary Method - Jupyter Notebook**:
+   - Open the project in Jupyter Notebook
+   - Run the cells in sequence to:
+     - Execute experiments
+     - Generate visualizations
+     - View results interactively
+   - This method allows for interactive exploration of results and easy modification of parameters
 
-2. The script will:
+2. **Alternative Method - Python Script**:
+   ```bash
+   python josh_proj2.py
+   ```
+   The script will:
    - Create necessary output directories
    - Run experiments with different configurations
    - Generate performance visualizations
